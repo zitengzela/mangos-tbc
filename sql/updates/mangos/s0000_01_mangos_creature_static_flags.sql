@@ -1,0 +1,6 @@
+ALTER TABLE creature_template ADD COLUMN `StaticFlags1` INT UNSIGNED NOT NULL DEFAULT 0 AFTER `CreatureTypeFlags`;
+ALTER TABLE creature_template ADD COLUMN `StaticFlags2` INT UNSIGNED NOT NULL DEFAULT 0 AFTER `StaticFlags1`;
+ALTER TABLE creature_template ADD COLUMN `StaticFlags3` INT UNSIGNED NOT NULL DEFAULT 0 AFTER `StaticFlags2`;
+ALTER TABLE creature_template ADD COLUMN `StaticFlags4` INT UNSIGNED NOT NULL DEFAULT 0 AFTER `StaticFlags3`;
+
+
